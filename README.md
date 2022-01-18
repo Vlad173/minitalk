@@ -18,12 +18,13 @@ needing to restart.
 *UNIX signals*
 * I can only use these two signals: *SIGUSR1* and *SIGUSR2*.
 
-Bonuses: 
+### Bonuses: 
 1. The server acknowledges every message received by sending back a signal to the
 client.
 2. Unicode characters support!
-3. 
-### Realization
-I divide the symbol into 8 bits and send the signals to server bitwise: 1 - SIGUSR1, 2 - SIGUSR2
 
-You can view the task [here](https://github.com/Vlad173/school21/subjects/minitalk.pdf
+
+### Realization
+The client divide the symbol into 8 bits and send the signals to server bitwise: 1 - SIGUSR1, 2 - SIGUSR2.
+
+You can view the task [here](https://github.com/Vlad173/school21/blob/master/subjects/minitalk.pdf)
