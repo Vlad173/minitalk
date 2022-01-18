@@ -25,6 +25,6 @@ client.
 
 
 ### Realization
-The client divide the symbol into 8 bits and send the signals to server bitwise: 1 - SIGUSR1, 2 - SIGUSR2.
+The client divide the symbol into 8 bits and send the signals to server bitwise: 1 - SIGUSR1, 0 - SIGUSR2.
 
 You can view the task [here](https://github.com/Vlad173/school21/blob/master/subjects/minitalk.pdf)
