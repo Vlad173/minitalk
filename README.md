@@ -1,4 +1,6 @@
-# minitalk (school21)
+# minitalk
+
+### Project finished (125%)
 
 I created a communication program in the form of a client and a server. 
 
